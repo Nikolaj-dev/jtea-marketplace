@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jtea-marketplace"
+version = "0.1.0"
+description = "Japanese tea marketplace"
+authors = ["Nikolaj-dev <nikolaypetrichshev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.115.6"}
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
